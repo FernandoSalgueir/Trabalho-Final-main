@@ -1,0 +1,63 @@
+<?php
+include('ligacao.php');
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Life Health</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+    <?php include_once("menu.php") ?>
+       
+        <section id="missao">
+            <h1>Missão</h1>
+
+            <div id="mission">
+                <div class="mission_">
+                    <div class="mission_container">
+                        <h2><b>A Missão</b></h2>
+                        <br>
+                        <p><b></b>A nossa missão é consegui ajudar todas as pessoas que usarem a</p> 
+                        <p>nossa aplicação a melhorar a sua saude gratuitamente e/ou prevenir</p>
+                        <p>que os nossos usuarios venham a desenvolver problemas de saude.</b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="servicos">
+
+            <h1>Serviços</h1>
+
+            <div id="cards">
+                <div class="card_servico">
+                    <img src="imagens/cakee.png" alt="Service">
+                    <div class="card_container">
+                        <h4>-Nós trabalhadores da Life Health podemos medir os seus diabetes e além disso tambem podemos proporcionar dicas para uma alimentação melhor para baixar o nivel dos diabetes.</h4>
+                    </div>
+                </div>
+                <div class="card_servico">
+                    <img src="imagens/burger.png" alt="Service">
+                    <div class="card_container">
+                        <h4>-Nós trabalhadores da Life Health podemos medir o seu colesterol e além disso tambem podemos proporcionar dicas para uma alimentação melhor para baixar o nivel do seu colesterol.</h4>
+                    </div>
+                </div>
+                <div class="card_servico">
+                    <img src="imagens/pap_service.png" alt="Service">
+                    <div class="card_container">
+                        <h4>-Nós trabalhadores da Life Health podemos medir os seus Batimentos cardiacos e além disso tambem podemos proporcionar dicas para normalizar os seus batimentos. </h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <?php include_once("footer.php") ?>
+    </body>
+
+</html>
