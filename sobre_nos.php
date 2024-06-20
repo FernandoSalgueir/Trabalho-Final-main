@@ -22,11 +22,12 @@ include('ligacao.php');
             <div id="sobrenos_id">
                 <div class="sobrenos_class">
                     <div class="sobrenos_container">
-                        <h2><b>A Missão</b></h2>
+
+                        <h2><b>A Nossa Missão</b></h2>
                         <br>
-                        <p>A nossa missão é consegui ajudar todas as pessoas que usarem a</p> 
-                        <p>nossa aplicação a melhorar a sua saude gratuitamente e/ou prevenir</p>
-                        <p>que os nossos usuarios venham a desenvolver problemas de saude.</p>
+                        <p>A nossa missão da life health é consegui ajudar todas as pessoas que usarem o</p> 
+                        <p>nosso website a melhorar a sua saúde gratuitamente e/ou prevenir que os nossos usuarios </p>
+                        <p>venham a desenvolver problemas de saude e a manterem um estilo de vida mais suadavel.</p>
                     </div>
                 </div>
             </div>

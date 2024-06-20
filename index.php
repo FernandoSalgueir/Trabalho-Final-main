@@ -23,7 +23,11 @@ include('ligacao.php');
     <br>
     <br>
     <br>
-    
+    <br>
+    <br>
+    <br>
+    <br>
+
     <h1>Bem-Vindos ao Life Health</h1>
 
     <!-- Slideshow container -->
@@ -32,19 +36,19 @@ include('ligacao.php');
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="imagens/cakee.png">
+    <img src="imagens/Health1.png">
     <div class="text">Caption Text</div>
     </div>
     
     <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="imagens/burger.png">
+    <img src="imagens/penso.png">
     <div class="text">Caption Two</div>
     </div>
     
     <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="imagens/Hslide3.jpg">
+    <img src="imagens/medicanismo.png">
     <div class="text">Caption Two</div>
     </div>
     
@@ -65,8 +69,14 @@ include('ligacao.php');
     <section id="servlif">
     <h1>Serviços do Life Health</h1>
     <p>O serviço da Life Health disponibiliza-lhe alguns serviços digitais.</p>
-    <p>Queremos estar mais próximos de si e ajuda-los o maximo possivel.</p>
-    </section>
+    <p>Queremos estar mais próximos de si e ajudá-los o máximo possivel.</p>
+    <br>
+    <br>    
+    <br>
+    <br>
+    <br>
+    <br>
+</section>
 
 
 

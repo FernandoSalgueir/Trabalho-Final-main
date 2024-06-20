@@ -201,7 +201,7 @@ html{
    justify-content: space-between;
    height: 100%;
    padding: 25px;
-   background-color: white;
+   background-color: #ffffff;
    color: #000000;
    text-align: right;
 }
@@ -232,6 +232,7 @@ html{
    display: flex;
    padding-top: 30vh;
    padding-bottom: 30vh;
+   background-image: url(imagens/Backgr.jpg);
    text-align: center;
    justify-content: center;
 }
