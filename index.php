@@ -32,19 +32,19 @@ include('ligacao.php');
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="imagens/cakee.png" style="width:100%">
+    <img src="imagens/cakee.png">
     <div class="text">Caption Text</div>
     </div>
     
     <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="imagens/burger.png" style="width:100%">
+    <img src="imagens/burger.png">
     <div class="text">Caption Two</div>
     </div>
     
     <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="imagens/Hstyle3.jpg" style="width:100%">
+    <img src="imagens/Hslide3.jpg">
     <div class="text">Caption Two</div>
     </div>
     
@@ -56,9 +56,9 @@ include('ligacao.php');
     
     <!-- The dots/circles -->
     <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(0)"></span>
     <span class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>
-    
     </div>
     
     
@@ -73,5 +73,5 @@ include('ligacao.php');
 
     <?php include_once("footer.php") ?>
     </body>
-
+    <script src="slide.js" defer></script>
 </html>

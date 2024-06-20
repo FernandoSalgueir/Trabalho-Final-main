@@ -17,14 +17,8 @@ include('ligacao.php');
 
     <section id="sobrenos">
             
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h1>Missão</h1>
-
+    
+   
             <div id="sobrenos_id">
                 <div class="sobrenos_class">
                     <div class="sobrenos_container">

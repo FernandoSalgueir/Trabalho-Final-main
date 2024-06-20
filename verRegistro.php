@@ -21,7 +21,7 @@
             if ($resultado->num_rows > 0) {
                 header('Location: registro.php?log=jaexiste');
             } else {
-                $consulta = "INSERT INTO `signup` (`Primeiro_Nome`, `Ultimo_Nome`, `NoCidadao`, `Password`) VALUES ('$P_Nome', '$U_Nome', '$login', '$pass');"
+                $consulta = "INSERT INTO `signup` (`Primeiro_Nome`, `Ultimo_Nome`, `NoCidadao`, `Password`) VALUES ('$P_Nome', '$U_Nome', '$login', '$pass');";
                 $resultado = $ligacao->query($consulta);
                 $_SESSION['Cod'] = $login;
                 $_SESSION['Util'] = $P_Nome;
