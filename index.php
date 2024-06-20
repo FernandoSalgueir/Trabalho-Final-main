@@ -12,50 +12,64 @@ include('ligacao.php');
     </head>
 
     <body>
-
     <?php include_once("menu.php") ?>
-       
-        <section id="missao">
-            <h1>Missão</h1>
 
-            <div id="mission">
-                <div class="mission_">
-                    <div class="mission_container">
-                        <h2><b>A Missão</b></h2>
-                        <br>
-                        <p><b></b>A nossa missão é consegui ajudar todas as pessoas que usarem a</p> 
-                        <p>nossa aplicação a melhorar a sua saude gratuitamente e/ou prevenir</p>
-                        <p>que os nossos usuarios venham a desenvolver problemas de saude.</b></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section id="servicos">
+    
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <h1>Bem-Vindos ao Life Health</h1>
 
-            <h1>Serviços</h1>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+    
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="imagens/cakee.png" style="width:100%">
+    <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="imagens/burger.png" style="width:100%">
+    <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="imagens/Hstyle3.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+    </div>
+    
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    
+    </div>
+    
+    
+    <section id="servlif">
+    <h1>Serviços do Life Health</h1>
+    <p>O serviço da Life Health disponibiliza-lhe alguns serviços digitais.</p>
+    <p>Queremos estar mais próximos de si e ajuda-los o maximo possivel.</p>
+    </section>
 
-            <div id="cards">
-                <div class="card_servico">
-                    <img src="imagens/cakee.png" alt="Service">
-                    <div class="card_container">
-                        <h4>-Nós trabalhadores da Life Health podemos medir os seus diabetes e além disso tambem podemos proporcionar dicas para uma alimentação melhor para baixar o nivel dos diabetes.</h4>
-                    </div>
-                </div>
-                <div class="card_servico">
-                    <img src="imagens/burger.png" alt="Service">
-                    <div class="card_container">
-                        <h4>-Nós trabalhadores da Life Health podemos medir o seu colesterol e além disso tambem podemos proporcionar dicas para uma alimentação melhor para baixar o nivel do seu colesterol.</h4>
-                    </div>
-                </div>
-                <div class="card_servico">
-                    <img src="imagens/pap_service.png" alt="Service">
-                    <div class="card_container">
-                        <h4>-Nós trabalhadores da Life Health podemos medir os seus Batimentos cardiacos e além disso tambem podemos proporcionar dicas para normalizar os seus batimentos. </h4>
-                    </div>
-                </div>
-            </div>
-        </section>
+
+
 
     <?php include_once("footer.php") ?>
     </body>

@@ -1,9 +1,8 @@
 <header>
     <a href="index.php"><img id="logo" src="Imagens/imagem.png" alt="Site's logo"></a>
     <ul id="menu">
-        <li><a href="index.php#missao">Missão</a></li>
-        <li><a href="#">Sobre Nós</a></li>
-        <li><a href="index.php#servicos">Serviços</a></li>
+       
+        <li><a href="sobre_nos.php#sobrenos">Sobre Nós</a></li>
         <?php if(!isset($_SESSION['Cod'])) { ?>
         <li><a href="login.php">Login</a>
         </li>
