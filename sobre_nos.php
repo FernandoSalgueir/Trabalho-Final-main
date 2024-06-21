@@ -23,11 +23,11 @@ include('ligacao.php');
                 <div class="sobrenos_class">
                     <div class="sobrenos_container">
 
-                        <h2><b>A Nossa Missão</b></h2>
+                        <h1><b>A Nossa Missão</b></h1>
                         <br>
-                        <p>A nossa missão da life health é consegui ajudar todas as pessoas que usarem o</p> 
-                        <p>nosso website a melhorar a sua saúde gratuitamente e/ou prevenir que os nossos usuarios </p>
-                        <p>venham a desenvolver problemas de saude e a manterem um estilo de vida mais suadavel.</p>
+                        <h3>A nossa missão da life health é consegui ajudar todas as pessoas que usarem o</h3> 
+                        <h3>nosso website a melhorar a sua saúde gratuitamente e/ou prevenir que os nossos usuarios </h3>
+                        <h3>venham a desenvolver problemas de saude e a manterem um estilo de vida mais suadavel.</h3>
                     </div>
                 </div>
             </div>
@@ -54,17 +54,37 @@ include('ligacao.php');
                     </div>
                 </div>
             </div>
-
-            <h1>Logotipos</h1>
-            <img src=
-
-            <img src="" alt="Logos">
-
-
-
-
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>            
 
         </section>
+            <section id="logotipo_P">
+           
+            <h1>Logotipos</h1>
+
+            <img src="imagens/P.png" alt="Logos">
+
+            </section>
+
+            <section id="logotipo_B">
+            <img src="imagens/Bran.png" alt="Logos">
+
+            </section>
 
     <?php include_once("footer.php") ?>
     </body>

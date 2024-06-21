@@ -68,8 +68,8 @@ include('ligacao.php');
     
     <section id="servlif">
     <h1>Serviços do Life Health</h1>
-    <p>O serviço da Life Health disponibiliza-lhe alguns serviços digitais.</p>
-    <p>Queremos estar mais próximos de si e ajudá-los o máximo possivel.</p>
+    <h3>O serviço da Life Health disponibiliza-lhe alguns serviços digitais.</h3>
+    <h3>Queremos estar mais próximos de si e ajudá-los o máximo possivel.</h3>
     <br>
     <br>    
     <br>

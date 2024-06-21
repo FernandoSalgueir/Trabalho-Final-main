@@ -6,7 +6,6 @@
  body {
     font-size: 100%;
     font-family: sans-serif;
-   background-color: white;
  }
  div, section, header, span, ul, li, a {
     box-sizing: border-box;
@@ -215,6 +214,14 @@ html{
    text-align: center;
    background-image: url(imagens/Backgr.jpg);
 }
+#logotipo_P {
+   background-color: #ffffff;
+}
+
+#logotipo_B {
+   background-color: #000000;
+}
+
 #servlif {
    text-align: center;
    background-image: url(imagens/Backgr.jpg);
