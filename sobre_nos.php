@@ -82,7 +82,7 @@ include('ligacao.php');
             </section>
 
             <section id="logotipo_B">
-            <img src="imagens/Bran.png" alt="Logos">
+            <img src="imagens/B.png" alt="Logos">
 
             </section>
 
