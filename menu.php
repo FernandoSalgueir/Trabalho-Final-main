@@ -4,8 +4,9 @@
        
         <li><a href="sobre_nos.php#sobrenos">Sobre Nós</a></li>
         <?php if(!isset($_SESSION['Cod'])) { ?>
-        <li><a href="login.php">Login</a>
+        <li><a href="resgistro.php">Registar</a>
         </li>
+        <li><a href="login.php">Login</a></li>
         <?php } else { ?>
         <li class="dropdown">
             <a href="logout.php"><?=  $_SESSION['Util']; ?></a>

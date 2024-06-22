@@ -16,23 +16,27 @@ include('ligacao.php');
 
     <?php include_once("menu.php") ?>
 
-    <section id="resgistro">
+    <section id="registro">
         <div class="registro">
-            <h2>Registro</h2>
+            <h2>Registo</h2>
             <form method="POST" action="verRegistro.php" >
-                <label for="Primeiro_Nome">Primeiro Nome:</label>
+                <p>
+                <label for="Primeiro_Nome">Primeiro Nome:</label><br>
                 <input type="text" id="Primeiro_Nome" name="Primeiro_Nome" required>
-                <br>
-                <label for="Ultimo_Nome">Ultimo Nome:</label>
+                </p>
+                <p>
+                <label for="Ultimo_Nome">Ultimo Nome:</label><br>
                 <input type="text" id="Ultimo_Nome" name="Ultimo_Nome" required>
-                <br>
-                <label for="username">Usuário:</label>
+                </p>
+                <p>
+                <label for="username">Nº de cidadão:</label><br>
                 <input type="text" id="username" name="username" required>
-                <br>
-                <label for="password">Senha:</label>
+                </p>
+                <p>
+                <label for="password">Senha:</label><br>
                 <input type="password" id="password" name="password" required>
-                <br>
-                <input type="submit" value="registro">
+                </p>
+                <input type="submit" value="Registar">
             </form>
         </div>
     </section>

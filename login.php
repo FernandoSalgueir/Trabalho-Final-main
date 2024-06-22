@@ -20,12 +20,14 @@ include('ligacao.php');
         <div class="login">
             <h2>Login</h2>
             <form method="POST" action="verLogin.php" >
-                <label for="username">Usuário:</label>
+                <p>
+                <label for="username">Usuário:</label><br>
                 <input type="text" id="username" name="username" required>
-                <br>
-                <label for="password">Senha:</label>
+                </p>
+                <p>
+                <label for="password">Senha:</label><br>
                 <input type="password" id="password" name="password" required>
-                <br>
+                </p>
                 <input type="submit" value="Login">
             </form>
         </div>

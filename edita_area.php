@@ -1,13 +1,14 @@
 <?php
 include('ligacao.php');
 
-$consulta = "SELECT NoCidadao FROM Utentes Where NoCidadao=" . $_SESSION['Cod'] .";";
+$consulta = "SELECT * FROM Utentes Where NoCidadao=" . $_SESSION['Cod'] .";";
 $resultado=$ligacao->query($consulta);
-if($resultado->num_rows > 0) {
-    header("Location: edita_area.php");
+if($resultado->num_rows == 0) {
+    header("Location: minha_area.php");
 }
 else{
-    
+    $utente = $resultado->fetch_assoc();
+
 ?>
 
 
@@ -25,12 +26,12 @@ else{
     <?php include_once("menu.php") ?>
 
     <section id="area">
-        <div class="area">
+        <div class="area"> 
             <h2>Minha Área</h2>
-            <form method="POST" action="verArea.php" >
+            <form method="POST" action="editaArea.php" >
                 <p>
                 <label for="Primeiro_Nome">Nome Completo:</label><br>
-                <input type="text" id="Primeiro_Nome" name="Primeiro_Nome" required>
+                <input type="text" id="Primeiro_Nome" name="Primeiro_Nome" required value="<?= $utente['Nome']?>">
                 </p>
                 <p>
                 <label for="idade">Idade:</label><br>

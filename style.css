@@ -44,7 +44,7 @@
    position:absolute;
    top: top+20px;
    z-index: 0;
-   box-shadow: 0 0 2px black;
+    
    background-color: white;
    display: none;
  }
@@ -235,6 +235,50 @@ html{
    background-color: white;
 }
 
+#registro{
+   padding-top: 12rem;
+   padding-bottom: 12rem;
+   text-align: center;
+   display: flex;
+   background-image: url(imagens/Backgr.jpg);
+   justify-content: center;
+}
+
+.registro{
+   border:1px  solid red;
+   border-radius: 10px;
+   padding: 20px;
+   background-color: rgba(255, 255, 255, 0.753);
+}
+
+.registro p {
+   padding: 5px;
+   text-align: left;
+}
+
+.registro h2{
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+
+
+.registro input[type=text], .registro input[type=password]  {
+   padding: 8px;
+    border: 2px solid rgb(233, 16, 16);
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.registro input[type=submit]{
+   margin-top: 10px;
+   padding: 8px;
+   color: white;
+   border-radius: 5px;
+   border: 2px solid #a60000;
+   background-color: red;
+}
+
 #login {
    display: flex;
    padding-top: 30vh;
@@ -245,9 +289,68 @@ html{
 }
 
 .login   {
-   border:1px  solid black;
+   border:1px  solid red;
    border-radius: 10px;
    padding: 20px;
+   background-color: rgba(255, 255, 255, 0.753);
+}
+
+.login h2{
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+.login input[type=submit]{
+   margin-top: 10px;
+   padding: 8px;
+   color: white;
+   border-radius: 5px;
+   border: 2px solid #a60000;
+   background-color: red;
+}
+
+.login input {
+   padding: 8px;
+    border: 2px solid rgb(233, 16, 16);
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+#area{
+   padding-top: 12rem;
+   padding-bottom: 12rem;
+   text-align: center;
+   display: flex;
+   background-image: url(imagens/Backgr.jpg);
+   justify-content: center;
+}
+
+.area p {
+   padding: 5px;
+   text-align: left;
+}
+
+.area   {
+   border:1px  solid red;
+   border-radius: 10px;
+   padding: 20px;
+   background-color: rgba(255, 255, 255, 0.753);
+}
+
+.area input {
+   padding: 8px;
+    border: 2px solid rgb(233, 16, 16);
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.area input[type=submit]{
+   margin-top: 10px;
+   padding: 8px;
+   color: white;
+   border-radius: 5px;
+   border: 2px solid #a60000;
+   background-color: red;
 }
 
 * {box-sizing:border-box}
