@@ -16,6 +16,12 @@
         header('Location: minha_area.php?erro=preenchimento');
     } else {
     
+        if ($gen=='m') {
+            $gen='masculino';
+        }
+        else {
+            $gen='feminino';
+        }
         $consulta = "INSERT INTO `utentes` (`Nome`, `Idade`, `NoCidadao`, `Número`, `Morada`, `Genero`, `Diabetes`, `Colesterol`) ";
         $consulta .= "VALUES ('$nome', '$idade', '$ncidadao', '$num', '$morada', '$gen', '$diabetes', '$colesterol');";
         $resultado = $ligacao->query($consulta);

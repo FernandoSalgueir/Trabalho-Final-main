@@ -38,7 +38,7 @@ else{
                 </p>
                 <p>
                 <label for="genero">Género:</label><br>
-                <input type="text" id="genero" name="genero" required>
+                <input type="radio" id="genero" name="genero" required>
                 </p>
                 <p>
                 <label for="numero">Número de telemóvel:</label><br>

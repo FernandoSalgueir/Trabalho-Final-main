@@ -344,6 +344,59 @@ html{
     background-color: #eee;
 }
 
+.radio_gen {
+   display: block;
+   position: relative;
+   
+   margin-bottom: 12px;
+   cursor: pointer;
+   padding-left: 2rem;
+   margin-bottom: 2rem;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+ }
+ 
+ .radio_gen input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+ }
+
+ .checkmark {
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 15px;
+   width: 15px;
+   background-color: #eee;
+   border-radius: 50%;
+ }
+
+ .radio_gen:hover  .checkmark {
+   background-color: #ccc;
+ }
+
+.radio_gen input:checked ~ .checkmark {
+      background-color: red;
+ }
+
+ .checkmark:after {
+   content: "";
+   position: absolute;
+   display: none;
+ }
+ 
+ .radio_gen .checkmark:after {
+   top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
 .area input[type=submit]{
    margin-top: 10px;
    padding: 8px;

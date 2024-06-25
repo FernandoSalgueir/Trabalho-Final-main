@@ -21,8 +21,8 @@ include('ligacao.php');
             <h2>Login</h2>
             <form method="POST" action="verLogin.php" >
                 <p>
-                <label for="username">Usuário:</label><br>
-                <input type="text" id="username" name="username" required>
+                <label for="username">Utilizador:</label><br>
+                <input type="text" id="username" name="username" placeholder="Nº de cidadão"required>
                 </p>
                 <p>
                 <label for="password">Senha:</label><br>

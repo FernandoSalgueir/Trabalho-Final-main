@@ -35,11 +35,20 @@ else{
                 </p>
                 <p>
                 <label for="idade">Idade:</label><br>
-                <input type="number" id="idade" name="idade" required>
+                <input type="number" id="idade" name="idade" required value="<?= $idade['idade']?>">
                 </p>
                 <p>
-                <label for="genero">Género:</label><br>
-                <input type="text" id="genero" name="genero" required>
+                <label for="genero">Género:<br>
+                <label class="radio_gen">
+                <span class="checkmark"></span>
+                <input type="radio" id="genero" name="genero" value="m" required>Masculino
+                   
+                </label>
+                <label class="radio_gen">
+                    <span class="checkmark"></span>
+                <input type="radio" id="genero" name="genero" value="f" required>Feminino
+                
+                </label>
                 </p>
                 <p>
                 <label for="numero">Número de telemóvel:</label><br>
@@ -58,7 +67,8 @@ else{
                 <input type="text" id="colesterol" name="colesterol" required>
                 </p>
                 <input type="hidden" name="n_cidadao" value="<?= $_SESSION['Cod'] ?>">
-                <input type="submit" value="Guardar">
+                <input type="submit" value="Alterar">
+                <button onclick="window.location='sugestao.php'">Sugestões</button>
             </form>
         </div>
     </section>

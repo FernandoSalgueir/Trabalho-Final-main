@@ -12,7 +12,7 @@
             <a href="logout.php"><?=  $_SESSION['Util']; ?></a>
             <div class="dropdown-menu">
                 <a href="logout.php">Logout</a>
-                <a href="minha_area.php">Minha Area</a>
+                <a href="minha_area.php">Minha Área</a>
             </div>
         </li>
         <?php }    
