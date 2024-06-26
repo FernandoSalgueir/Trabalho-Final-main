@@ -37,8 +37,17 @@ else{
                 <input type="number" id="idade" name="idade" required>
                 </p>
                 <p>
-                <label for="genero">Género:</label><br>
-                <input type="radio" id="genero" name="genero" required>
+                <label for="genero">Género:<br>
+                <label class="radio_gen">
+                <span class="checkmark"></span>
+                <input type="radio" id="genero" name="genero" value="m" >Masculino
+                   
+                </label>
+                <label class="radio_gen">
+                    <span class="checkmark"></span>
+                <input type="radio" id="genero" name="genero" value="f" >Feminino
+                
+                </label>
                 </p>
                 <p>
                 <label for="numero">Número de telemóvel:</label><br>

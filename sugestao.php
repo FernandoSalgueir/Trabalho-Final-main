@@ -6,7 +6,7 @@ $resultado=$ligacao->query($consulta);
 if($resultado->num_rows == 0) {
     header("Location: minha_area.php");
 }
-else{
+else {
     $utente = $resultado->fetch_assoc();
 
     $consulta ="SELECT * FROM sugestoes WHERE coles_min < " . $utente['Colesterol'] . " AND coles_max > " . $utente['Colesterol']; 
@@ -32,15 +32,26 @@ else{
 
     <body>
 
-    <?php include_once("menu.php") ?>
+    <?php include_once("menu.php"); ?>
 
     <section id="area">
         <div class="area">
             <h2>Sugestões</h2>
+            <h3>Colesterol:</h3>
            <p><?= $sugestao['sugestao']; ?>
+           <?php if($utente['Diabetes']>183) {
+            ?>
+            <h3>Diabetes:</h3>
+            <p>Seu nível de açucar no sangue está muito alto!<br> Não deve ingerir mais açucar!</p>
+           <?php }
+           if($utente['Diabetes']<126){
+            ?>
+            <h3>Diabetes:</h3>
+            <p>Seu nível de açucar no sangue está muito baixo!<br> Devera ingerir mais açucar!</p>
+           <?php  }?>
         </div>
     </section>
-    <?php include_once("footer.php") ?> 
+    <?php include_once("footer.php"); ?> 
 
 </body>
 </html>
